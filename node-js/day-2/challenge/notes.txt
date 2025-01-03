@@ -1,0 +1,2 @@
+Initial text
+Appending a text to notes.txt
