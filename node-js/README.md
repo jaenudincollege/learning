@@ -6,3 +6,4 @@
 |          |       |                       | Creating custom module    |
 | 3/1/2025 | Day 3 | HTTP Server           | simple server             |
 |          |       |                       | Handling different routes |
+|          |       |                       | Serve HTML content        |
