@@ -11,3 +11,4 @@
 |          |       |                       | adding query parameter     |
 |          |       |                       | serving static assets      |
 |          |       |                       | middleware logging request |
+|          |       |                       | modularize middleware      |
