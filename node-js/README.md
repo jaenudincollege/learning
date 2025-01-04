@@ -8,3 +8,4 @@
 |          |       |                       | Handling different routes |
 |          |       |                       | Serve HTML content        |
 | 4/1/2025 |       |                       | day 3 part 2              |
+|          |       |                       | adding query parameter    |
