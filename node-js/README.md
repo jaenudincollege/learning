@@ -7,3 +7,4 @@
 | 3/1/2025 | Day 3 | HTTP Server           | simple server             |
 |          |       |                       | Handling different routes |
 |          |       |                       | Serve HTML content        |
+| 4/1/2025 |       |                       | day 3 part 2              |
