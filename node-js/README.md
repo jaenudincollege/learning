@@ -15,3 +15,4 @@
 | 5/1/2025 | Day 5 | Asynchronous Programming | Callback                   |
 |          |       |                          | promise                    |
 |          |       |                          | async / await              |
+|          |       | Streams & buffers        | Read file using streams    |
