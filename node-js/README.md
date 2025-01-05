@@ -17,3 +17,4 @@
 |          |       |                          | async / await                      |
 |          |       | Streams & buffers        | Read file using streams            |
 |          |       |                          | Write Data to a File Using Streams |
+|          |       |                          | Pipe Readable to Writable Stream   |
