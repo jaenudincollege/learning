@@ -1,13 +1,10 @@
 export default function App() {
   const animals = ["cat", "tiger", "lion", "eagle"];
+  const animalsList = animals.map((animal) => <li key={animal}>animal</li>);
   return (
     <>
       <h1>Animals</h1>
-      <ul>
-        {animals.map((a) => (
-          <li key={a}>{a}</li>
-        ))}
-      </ul>
+      <ul>{animalsList}</ul>
     </>
   );
 }
