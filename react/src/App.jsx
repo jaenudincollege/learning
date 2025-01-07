@@ -1,26 +1,13 @@
-function App() {
-  const name = "Jaenudin Firdaus";
+export default function App() {
+  const animals = ["cat", "tiger", "lion", "eagle"];
   return (
     <>
-      <Hello name={name} />
-      <AnotherComponent />
+      <h1>Animals</h1>
+      <ul>
+        {animals.map((a) => (
+          <li key={a}>{a}</li>
+        ))}
+      </ul>
     </>
   );
 }
-
-function Hello({ name }) {
-  const styling = {
-    color: "blue",
-  };
-  return (
-    <h1 style={{ color: "red" }}>
-      Hello <span style={styling}>{name}</span>, How are you doing?
-    </h1>
-  );
-}
-
-function AnotherComponent() {
-  return <h2>Another Component</h2>;
-}
-
-export default App;
