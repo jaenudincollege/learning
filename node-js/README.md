@@ -21,3 +21,4 @@
 | 9/1/2025 | Day 6 | EventEmitter and Custom Events | Creating custom event                  |
 |          |       |                                | Removing event listener                |
 |          |       |                                | Practical Example: Logger Using Events |
+|          | Day 7 | Mini project                   | Simple crud mini project               |
