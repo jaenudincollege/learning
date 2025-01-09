@@ -17,3 +17,14 @@ eventEmitter.on("greet", (name) => {
 eventEmitter.emit("greet", "Jay");
 eventEmitter.emit("hi", "Rachel");
 eventEmitter.emit("greet", "Rachel");
+
+// removing event listeners
+const greetListener = (name) => console.log(`Welcome ${name}`);
+eventEmitter.on("welcome", greetListener);
+
+// normal
+eventEmitter.emit("welcome", "Angeline");
+
+// remove
+eventEmitter.off("welcome", greetListener);
+eventEmitter.emit("welcome", "Ali"); //no output

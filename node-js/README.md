@@ -19,3 +19,4 @@
 |          |       |                                | Write Data to a File Using Streams |
 |          |       |                                | Pipe Readable to Writable Stream   |
 | 9/1/2025 | Day 6 | EventEmitter and Custom Events | Creating custom event              |
+|          |       |                                | Removing event listener            |
