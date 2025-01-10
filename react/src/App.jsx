@@ -1,5 +1,9 @@
 function Button({ text, color, fontSize }) {
-  return <button style={{ color, fontSize }}>{text}</button>;
+  const btnStyle = {
+    color,
+    fontSize,
+  };
+  return <button style={btnStyle}>{text}</button>;
 }
 
 export default function App() {
