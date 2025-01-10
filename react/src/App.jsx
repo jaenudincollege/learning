@@ -1,24 +1,18 @@
 export default function App() {
-  const animals = ["cat", "tiger", "lion", "eagle"];
-
-  return (
-    <>
-      <h1>Animals</h1>
-      <List animals={animals} />
-    </>
-  );
+  return <TodoList />;
 }
 
-function List(props) {
+function TodoList() {
+  const todos = [
+    { id: crypto.randomUUID(), task: "Clean the room" },
+    { id: crypto.randomUUID(), task: "Learning web development" },
+    { id: crypto.randomUUID(), task: "Buy the food" },
+  ];
   return (
     <ul>
-      {props.animals.map((animal) => (
-        <ListItem key={animal} animal={animal} />
+      {todos.map((todo) => (
+        <li key={todo.id}>{todo.task}</li>
       ))}
     </ul>
   );
-}
-
-function ListItem(props) {
-  return <li>{props.animal}</li>;
 }
