@@ -1,18 +1,13 @@
-export default function App() {
-  return <TodoList />;
+function Button({ text, color, fontSize }) {
+  return <button style={{ color, fontSize }}>{text}</button>;
 }
 
-function TodoList() {
-  const todos = [
-    { id: crypto.randomUUID(), task: "Clean the room" },
-    { id: crypto.randomUUID(), task: "Learning web development" },
-    { id: crypto.randomUUID(), task: "Buy the food" },
-  ];
+export default function App() {
   return (
-    <ul>
-      {todos.map((todo) => (
-        <li key={todo.id}>{todo.task}</li>
-      ))}
-    </ul>
+    <>
+      <Button text="Click Me!" color="red" fontSize={12} />
+      <Button text="Click Me!" color="yellow" fontSize={16} />
+      <Button text="Click Me!" color="cyan" fontSize={24} />
+    </>
   );
 }
