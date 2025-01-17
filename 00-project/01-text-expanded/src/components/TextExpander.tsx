@@ -6,6 +6,7 @@ export default function TextExpander({ children }) {
   return (
     <div className="card">
       <span className="text">{children}</span>
+      <button className="btn">Show more</button>
     </div>
   );
 }
