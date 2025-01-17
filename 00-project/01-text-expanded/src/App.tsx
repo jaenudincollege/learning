@@ -30,6 +30,13 @@ export default function App() {
         praesentium, voluptatem fugit eveniet perspiciatis laborum pariatur ipsa
         officia facere!
       </TextExpander>
+
+      <TextExpander btnColor="blue">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quisquam
+        reprehenderit molestias illum cupiditate. Incidunt dolorum quo quod,
+        fuga molestias culpa, laboriosam animi esse placeat doloremque quis,
+        quasi ea officia?
+      </TextExpander>
     </div>
   );
 }
