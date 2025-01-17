@@ -6,6 +6,7 @@ export default function TextExpander({
   btnOpen = "Show more",
   btnClose = "Show less",
   expanded = false,
+  className = "box",
 }) {
   const [isOpen, setIsOpen] = useState(expanded);
 
@@ -23,7 +24,7 @@ export default function TextExpander({
   };
 
   return (
-    <div className="card">
+    <div className={className}>
       <span className="text">{view}</span>
       <button style={btnStyle} onClick={() => setIsOpen((open) => !open)}>
         {isOpen ? btnClose : btnOpen}
