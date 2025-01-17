@@ -1,6 +1,11 @@
 import { useState } from "react";
 
-export default function TextExpander({ children, btnColor = "red" }) {
+export default function TextExpander({
+  children,
+  btnColor = "red",
+  btnOpen = "Show more",
+  btnClose = "Show less",
+}) {
   const [isOpen, setIsOpen] = useState(false);
 
   const view = isOpen
@@ -20,7 +25,7 @@ export default function TextExpander({ children, btnColor = "red" }) {
     <div className="card">
       <span className="text">{view}</span>
       <button style={btnStyle} onClick={() => setIsOpen((open) => !open)}>
-        Show more
+        {isOpen ? btnClose : btnOpen}
       </button>
     </div>
   );
