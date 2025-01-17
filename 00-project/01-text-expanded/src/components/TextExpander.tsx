@@ -5,8 +5,9 @@ export default function TextExpander({
   btnColor = "red",
   btnOpen = "Show more",
   btnClose = "Show less",
+  expanded = false,
 }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(expanded);
 
   const view = isOpen
     ? children
